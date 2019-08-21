@@ -1,6 +1,6 @@
 # CMake 最低版本号要求
 cmake_minimum_required(VERSION 3.4.1)
-
+MESSAGE( STATUS "+++++++++++++ ${ALL_SUB}")
 add_library(
         hello-jni # so 库的名称 libhello-jni.so
         SHARED # 设置为分享库
